@@ -6,12 +6,15 @@
  * @return {void}
  */
 const index = (func: Function, timeout: number): (...args: any[]) => void => {
-    let timer: ReturnType<typeof setTimeout> | undefined;
+  // @ts-ignore
+  let timer: ReturnType<typeof setTimeout> | undefined;
 
-    return (...args: any[]): void => {
-        clearTimeout(timer!);
-        timer = setTimeout(() => func(...args), timeout);
-    };
+  return (...args: any[]): void => {
+    clearTimeout(timer!);
+    // @ts-ignore
+    timer = setTimeout(() => func(...args), timeout);
+  };
 };
 
 export default index;
+

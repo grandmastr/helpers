@@ -966,10 +966,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@grandmastr/helpers@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@grandmastr/helpers/-/helpers-1.0.0.tgz#4b6a83b4514ad2ae5d23cf545cd2081819d03abe"
-  integrity sha512-xepid1peN2T7nz41X9dntTzUzvpWzlOPz3cK7kGQINzeNdf3wXOHZLnh3uL9598i571KFeZTQubaoM+ntCXw6A==
+"@grandmastr/helpers@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@grandmastr/helpers/-/helpers-1.0.1.tgz#ccd84416320efac0027eb4c5284f21a7584e80c9"
+  integrity sha512-mYidet8ccfBRXh1dKVGoDlKp2/OHISMmYADFV8RpxoYF4Q8iL3MmOHgZ2bm+NOY7TRUCK2F4lKpVmy2UX2N2SQ==
   dependencies:
     "@rollup/plugin-multi-entry" "^6.0.1"
 
