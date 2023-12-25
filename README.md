@@ -32,6 +32,7 @@ import { debounce } from '@grandmastr/helpers';
 
 ## Upcoming features
 - Unit tests
+- More helpers
 
 
 > MIT ©  GitHub
