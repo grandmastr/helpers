@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "Very handy set of helpers for frontend web and mobile(React Native) development",
+  "types": "dist/esm/index.d.ts",
+  "main": "dist/esm/multi-entry.js",
+  "module": "dist/esm/multi-entry.js",
+  "jsnext:main": "dist/esm/multi-entry.js",
+  "repository": "@grandmastr/helpers",
   "scripts": {
     "clear": "del dist",
     "build:esm": "rollup -c --environment ESM --bundleConfigAsCjs",
-    "build": "yarn clear && yarn build:esm"
+    "build": "yarn clear && yarn build:esm",
+    "prepublishOnly": "yarn build"
   },
   "keywords": [
     "javascript",
