@@ -2,7 +2,7 @@
 
 Super handy JavaScript utilities for frontend development.
 
-Note: This is a work in progress and as such is not well documented or ready-to-use.
+Note: This is a work in progress.
 
 ## Install
 
