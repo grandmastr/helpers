@@ -1,6 +1,6 @@
 {
   "name": "@grandmastr/helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Very handy set of helpers for frontend web and mobile(React Native) development",
   "types": "dist/esm/index.d.ts",
@@ -48,5 +48,5 @@
   },
   "files": [
     "dist"
-  ],
+  ]
 }
