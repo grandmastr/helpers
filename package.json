@@ -1,0 +1,49 @@
+{
+  "name": "@grandmastr/helpers",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Very handy set of helpers for frontend web and mobile(React Native) development",
+  "main": "index.js",
+  "scripts": {
+    "clear": "del build",
+    "build:esm": "rollup -c --environment ESM --bundleConfigAsCjs",
+    "build": "yarn clear && yarn build:esm"
+  },
+  "keywords": [
+    "javascript",
+    "helpers",
+    "functions",
+    "web",
+    "development",
+    "mobile",
+    "development",
+    "react",
+    "react",
+    "native",
+    "js"
+  ],
+  "type": "module",
+  "author": "Israel Akintunde <israelakintunde005@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-transform-runtime": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "bundlesize": "^0.18.1",
+    "del-cli": "^5.1.0",
+    "prettier": "^3.0.3",
+    "rollup": "^4.9.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@rollup/plugin-multi-entry": "^6.0.1"
+  }
+}
