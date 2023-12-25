@@ -30,6 +30,9 @@ import { debounce } from '@grandmastr/helpers';
 - `mimeTypes`: A comprehensive list of MIME types and their corresponding file extensions.
 - `truncateText`: Trims a string to a specified length and appends an ellipsis or specified characters.
 
+## Upcoming features
+- Unit tests
+
 
 > MIT ©  GitHub
 > [@grandmastr](https://github.com/grandmastr) &nbsp;&middot;&nbsp; Twitter
