@@ -12,7 +12,7 @@ export default {
     typescript({
       ...defaultsTsConfig.compilerOptions,
       ...{
-        outDir: 'build/esm',
+        outDir: 'dist/esm',
         exclude: defaultsTsConfig.exclude,
       }
     }),
@@ -21,7 +21,7 @@ export default {
     }),
   ],
   output: {
-    dir: 'build/esm',
+    dir: 'dist/esm',
     format: 'esm',
     exports: 'named'
   }
