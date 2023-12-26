@@ -17,12 +17,12 @@ module.exports = {
     }
   },
   presets: [
-    ['@babel/env',
+    ['@babel/env', '@babel/preset-env', {targets: {node: 'current'}}
       {
         loose: true,
         modules: false
       }
-    ]
+    ], '@babel/preset-typescript'
   ],
   plugins: ['@babel/plugin-proposal-object-rest-spread']
 }

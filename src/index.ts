@@ -5,6 +5,7 @@
  * Released under the MIT License.
  */
 
+export {default as debounce} from './debounce';
 export {default as emptyList} from './emptyList'
 export {default as extractLink} from './extractLink'
 export {default as getExtension} from './getExtension'

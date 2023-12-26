@@ -9,10 +9,6 @@ Note: This is a work in progress.
 ```shell
 yarn add @grandmastr/helpers
 ```
-or
-```shell
-npm install @grandmastr/helpers --save
-```
 
 ## Usage
 
@@ -30,9 +26,15 @@ import { debounce } from '@grandmastr/helpers';
 - `mimeTypes`: A comprehensive list of MIME types and their corresponding file extensions.
 - `truncateText`: Trims a string to a specified length and appends an ellipsis or specified characters.
 
-## Upcoming features
-- Unit tests
-- More helpers
+## Building
+```shell
+yarn build
+```
+
+## Testing
+```shell
+yarn test
+```
 
 
 > MIT ©  GitHub
