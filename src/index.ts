@@ -19,3 +19,4 @@ export {default as slugify} from './slugify';
 export {default as months} from './months';
 export {default as toPx} from './toPx';
 export {default as isEmail} from './isEmail';
+export {default as deepCopy} from './deepCopy';
