@@ -22,3 +22,4 @@ export {default as isEmail} from './isEmail';
 export {default as deepCopy} from './deepCopy';
 export {default as flatten} from './flatten';
 export {default as isObject} from './isObject';
+export {default as capitalize} from './capitalize';
