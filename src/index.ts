@@ -24,3 +24,4 @@ export {default as flatten} from './flatten';
 export {default as isObject} from './isObject';
 export {default as capitalize} from './capitalize';
 export {default as generateRandomNumbers} from './generateRandomNumbers';
+export {default as abbreviateNumber} from './abbreviateNumber';
