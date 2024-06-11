@@ -1,6 +1,6 @@
 import abbreviateNumber from './index';
 
-describe('convertBigNumbers', () => {
+describe('abbreviateNumber', () => {
   it('should convert numbers in billions correctly', () => {
     expect(abbreviateNumber(1e9)).toBe('1B');
     expect(abbreviateNumber(2.5e9)).toBe('2.5B');
